@@ -1,0 +1,36 @@
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.up, .down {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Tạo khoảng cách giữa các khối */
+}
+
+/* Bố cục cho phần trên và dưới */
+.up .left, .down .left {
+  flex: 1;
+  padding: 10px;
+}
+
+.up .right, .down .right {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Tạo kiểu cho văn bản */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Tạo kiểu cho hình ảnh */
+img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px; /* Tạo góc tròn cho hình ảnh */
+}
