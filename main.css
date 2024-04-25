@@ -48,17 +48,6 @@ li {
   margin-bottom: 5px; /* Thêm khoảng cách giữa các mục */
 }
 
-button {
-  font-size: 16px;
-  padding: 10px;
-  background-color: #ffcccb;
-  border: none;
-  cursor: pointer; /* Thêm con trỏ chuột để tăng tương tác */
-}
-
-button:hover {
-  background-color: #ff9999; /* Tạo hiệu ứng hover cho nút */
-}
 
 .introduce-myself .content {
   display: flex;           
@@ -99,5 +88,19 @@ button:hover {
 
 .work-experience .content img {
   width: 100%; 
-  max-width: 350px; 
+  max-width: 600px; 
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
 }
