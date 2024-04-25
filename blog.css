@@ -31,6 +31,6 @@ p {
 /* Tạo kiểu cho hình ảnh */
 img {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 10px; /* Tạo góc tròn cho hình ảnh */
 }
