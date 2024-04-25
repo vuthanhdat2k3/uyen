@@ -1,0 +1,103 @@
+/* Đặt các quy tắc toàn cục trước */
+body {
+  background: url('https://i.pinimg.com/564x/84/e9/ab/84e9abf3f06a5fbcfbcb5a144133187d.jpg') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+  background-color: rgba(249, 231, 234, 0.3);
+  padding: 20px; /* Thêm padding để tạo khoảng cách */
+  border-radius: 10px; /* Thêm góc bo để trang web mềm mại hơn */
+  margin: 10px 0; /* Tạo khoảng cách giữa các phần */
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 40px;
+  color: #333; /* Thêm màu chữ để tăng khả năng đọc */
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5; /* Tăng khoảng cách giữa các dòng để dễ đọc */
+}
+
+ul {
+  list-style-type: none; /* Xóa ký hiệu danh sách */
+  padding: 0; /* Xóa khoảng trống không cần thiết */
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 5px; /* Thêm khoảng cách giữa các mục */
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #ffcccb;
+  border: none;
+  cursor: pointer; /* Thêm con trỏ chuột để tăng tương tác */
+}
+
+button:hover {
+  background-color: #ff9999; /* Tạo hiệu ứng hover cho nút */
+}
+
+.introduce-myself .content {
+  display: flex;           
+  justify-content: flex-start; 
+  align-items: center;     
+  gap: 20px;              
+}
+
+.introduce-myself .content .left {
+  flex: 0 0 auto;          
+}
+
+.introduce-myself .content .right {
+  flex: 1;                 
+  text-align: left;        
+}
+
+.work-experience {
+  padding: 20px;
+}
+
+.work-experience h2 {
+  font-size: 30px; 
+  text-decoration: underline; 
+}
+
+.work-experience .content {
+  display: flex;           
+  justify-content: space-around; 
+}
+
+.work-experience .content .left,
+.work-experience .content .right {
+  display: flex;           
+  flex-direction: column;  
+  gap: 10px;               
+}
+
+.work-experience .content img {
+  width: 100%; 
+  max-width: 300px; 
+}
